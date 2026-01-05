@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+
+<h2>Login Page</h2>
+
+<table border="1">
+    <tr>
+        <td>Name:</td>
+        <td id="name"></td>
+    </tr>
+    <tr>
+        <td>Age:</td>
+        <td id="age"></td>
+    </tr>
+</table>
+
+<script>
+    document.getElementById("name").innerText =
+        localStorage.getItem("name");
+
+    document.getElementById("age").innerText =
+        localStorage.getItem("age12");
+</script>
+
+</body>
+</html>
