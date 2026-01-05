@@ -1,7 +1,7 @@
 const CLOUD_NAME = "doi5p2oav";
 const UPLOAD_PRESET = "images";
-const API_URL = "http://localhost:3000/api/media";
-const DELETE_URL = "http://localhost:3000/api/delete";
+const API_URL = "https://media-uploader-9d24.onrender.com/api/media";
+const DELETE_URL = "https://media-uploader-9d24.onrender.com/api/delete";
 
 /* Load all media */
 fetch(API_URL)
